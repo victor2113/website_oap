@@ -114,6 +114,13 @@ body{
     line-height: 2;
 }
 
+.about{
+    background-image:url("https://img.freepik.com/free-vector/modern-polygon-technology-background_1035-17925.jpg?w=2000");
+    width:100%;
+    height:700px;
+    background-repeat:no-repeat;
+}
+
 .footer{
     background-color:#DBDCDE;
     width:100%;
