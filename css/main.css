@@ -61,7 +61,7 @@ body{
 }
 
 .description{
-    width:700px;
+    width:1000px;
     height:400px;
     padding-left:200px;
     padding-top:100px;
@@ -70,6 +70,7 @@ body{
 .header-content-text-h1{
     color:white;
     font-size:60px;
+    font-weight:600;
 }
 
 .header-content-text-h2{
@@ -127,22 +128,142 @@ body{
     height:100px;
     margin-top:50px;
 }
+
 .footer-card{
     padding-top:30px;
     width:25%;
     display:flex;
 }
+
 .footer-row{
     display: flex;
     column-gap:20%;
     margin: 0 10%;
 }
+
 .footer-card-img{
     margin-bottom:30px;
     height:20px;
     width:20px;
 }
+
 .footer-card h4{
     font-size:15px;
     padding-left:10px;
+}
+
+.contacts{
+    padding: 90px 0;
+    text-align:center;
+}
+
+.contacts-title{
+    margin-bottom: 40px;
+}
+
+.contacts-content{
+    max-width:480px;
+    font-size: 18px;
+    margin: 0 auto 40px;
+}
+
+.contacts-content p + p{
+    margin-top:1em;
+}
+
+.social-img{
+    width:50px;
+    height:50px;
+}
+
+.contacts-button{
+    margin-bottom:40px;
+}
+
+.title-1{
+    color:#000;
+    font-size:40px;
+    font-weight:600;
+}
+
+.btn{
+    background-color:black;
+    padding: 7px 22px;
+    border-radius:30px;
+    display: inline-block;
+    font-size:18px;
+    color:white;
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover, .btn:focus{
+    background-color:#323232;
+}
+
+.btn:active{
+    position:relative;
+    top: 1px;
+    background-color:#000000;
+}
+
+.contacts-social{
+    display:flex;
+    justify-content:center; 
+    align-items: center;
+    column-gap:60px;
+}
+
+.contacts-footer{
+    color:Gray;
+    margin-top:20px;
+}
+
+.team-title{
+    font-size:50px;
+    color:#000000;
+    font-weight:600;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    column-gap:118px;
+}
+
+.team-img{
+    height:200px;
+    width:150px;
+    border-radius:20px;
+}
+
+.teamcard{
+    font-size:15px;
+}
+
+.teamcard h2{
+    color:black;
+    text-align:center;
+    font-size:15px;
+    font-weight:400;
+}
+
+.teamcard p{
+    font-size:20px;
+    font-weight:600;
+    text-align:center;
+}
+
+.team-description{
+    background-image:url(../img/background1.jpg);
+    margin-top:60px;
+    height:350px;
+    border-radius:10px;
+    border:2px solid black;
+}
+
+.team-description h2{
+    color:#FFFFFF;
+    font-size:20px;
+    padding:20px 20px 0 20px;
+    justify-content:center;
 }
